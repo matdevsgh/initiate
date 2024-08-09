@@ -369,7 +369,8 @@ body {
 /*################################################
 ##         Pricing                  ##
 ################################################*/
-.pric {
+.pric,
+.choice {
     background-color:rgb(234, 245, 255);
     padding-bottom: 30px;
     padding-top: 10px;
@@ -394,7 +395,19 @@ body {
     background: rgb(9, 119, 210);
     background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%);
 }
-
+.pri-de a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.pri-de {
+    background-color:rgb(18, 247, 133);
+}
+.pri-de:hover {
+    color: white;
+    background: rgb(9, 119, 210);
+    background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%);
+}
 /* Quota form*/
 .quota-form {
     background-color: rgb(46, 46, 46);
@@ -473,6 +486,9 @@ body {
     color: white;
     padding: 80px;
 }
+
+/* STYLING FOR THE BOLG */
+
 
 /* Footer */
 footer {
