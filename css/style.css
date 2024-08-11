@@ -41,16 +41,38 @@ body {
     width: 100%;
     position: relative;
     overflow: hidden;
+    height: 30rem;
     background: rgb(9, 119, 210);
     background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%);
     background: rgb(9, 119, 210);
-    background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%);
+    background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%); 
     display: flex;
     justify-content: space-evenly;
     padding-left: 30px;
     padding-right: 30px;
     padding: 30px;
 }
+/*
+.main-hero {
+    background-image: url("/icons/landing-swoosh.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-clip: border-box;
+}
+*/
+/*
+.main-hero::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(18, 247, 133, 0.439)
+}
+*/
 .info-hero {
     position: absolute;
     top: 20px;
@@ -58,6 +80,7 @@ body {
 
 .main-message {
     width: 500px;
+    z-index: 1;
 }
 
 .message-head {
@@ -86,6 +109,7 @@ body {
     position: absolute;
     bottom: 10px;
     left: 2px;
+    z-index: 1;
 }
 
 .social li,
@@ -525,6 +549,25 @@ footer li {
     border: 1px solid dodgerblue;
     padding: 8px;
     border-radius: 8px
+}
+
+/*################################################
+##         Pricing Page Style                  ##
+################################################*/
+.price-info {
+    font-size: 1.3rem;
+    line-height: 1.5
+}
+.starter,
+.roadstar {
+    background: rgb(9, 119, 210);
+    background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%);
+    background: rgb(9, 119, 210);
+    background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%);
+}
+.station {
+     background: rgb(18,247,133);
+background: linear-gradient(163deg, rgba(126,255,119,1) 49%, rgba(201,243,198,1) 77%); 
 }
 
 /* Animations for the main hero */
