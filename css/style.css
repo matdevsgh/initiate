@@ -522,6 +522,9 @@ body {
     color: white;
     padding: 80px;
 }
+.abt-txt {
+    text-align: justify;
+}
 
 /* STYLING FOR THE BOLG */
 
