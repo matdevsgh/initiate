@@ -440,10 +440,16 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.wp {
+.wp,
+.up {
     width: 100px;
     position: fixed;
     right: 2px;
+    bottom: 5px;
+    cursor: pointer;
+}
+.up {
+    left: 20px;
     bottom: 5px;
     cursor: pointer;
 }
