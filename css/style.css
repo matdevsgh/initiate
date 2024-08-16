@@ -41,25 +41,30 @@ body {
     width: 100%;
     position: relative;
     overflow: hidden;
-    height: 40em;
+    height: 40rem;
     /*
     background: rgb(194,202,178);
     background: linear-gradient(90deg, rgba(194,202,178,1) 8%, rgba(143,180,173,1) 20%, rgba(92,155,161,1) 43%, rgba(24,67,102,1) 79%); 
     */
+    /*
     background: rgb(9, 119, 210);
     background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%);
+    */
     display: flex;
     justify-content: space-evenly;
     padding-left: 30px;
     padding-right: 30px;
     padding: 30px;
 }
+
 .hero-img {
     width: 100%;
     height: 100%;
     display: block;
     position: absolute;
+    color: rgba(255, 255, 255, 0);
 }
+
 /*
 .main-hero {
     background-image: url("/images/StockCake-Rocket\ Launching\ Skyward_1723661576.jpg");
@@ -78,13 +83,15 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:rgba(18, 155, 247, 0)
+    background-color: rgba(0, 0, 0, 0.701);
+    z-index: 1;
 }
 
 .info-hero {
     position: absolute;
     top: 20px;
 }
+
 
 .main-message {
     width: 500px;
@@ -98,6 +105,7 @@ body {
 
 .message-body {
     color: white;
+    line-height: 1.7;
 }
 
 .social {
@@ -162,7 +170,7 @@ body {
 
 .services {
     background-color: whitesmoke;
-    padding: 40px 0px;
+    padding: 0px 0px;
 }
 
 .slider {
@@ -259,8 +267,9 @@ body {
 
 /* Style for what we do section */
 .wedo {
-    background: rgb(9, 119, 210);
-    background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%);
+    /*background: rgb(9, 120, 210);*/
+    /*background: linear-gradient(153deg, rgb(235, 235, 236) 66%, rgb(179, 185, 187) 83%);*/
+    background-color: rgb(234, 245, 255)
 }
 
 .box {
@@ -296,11 +305,15 @@ body {
 }*/
 
 .do-txt {
-    color: whitesmoke;
+    color: dodgerblue;
 }
 
 .do-tt {
     font-size: 1.2rem
+}
+
+.serve-txt {
+    color: grey
 }
 
 .wedoimg {
@@ -403,21 +416,25 @@ body {
 ################################################*/
 .pric,
 .choice {
-    background-color:rgb(234, 245, 255);
+    background-color: rgb(234, 245, 255);
     padding-bottom: 30px;
     padding-top: 10px;
 
 }
+
 .price-amount {
     color: dodgerblue;
 }
+
 .pric ul {
     list-style: none;
     text-align: left;
 }
+
 .popu {
-    background-color:rgb(18, 247, 133)
+    background-color: rgb(18, 247, 133)
 }
+
 .card-header {
     background-color: darkturquoise
 }
@@ -427,19 +444,23 @@ body {
     background: rgb(9, 119, 210);
     background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%);
 }
-.pri-de a{
+
+.pri-de a {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.4rem;
 }
+
 .pri-de {
-    background-color:rgb(18, 247, 133);
+    background-color: rgb(18, 247, 133);
 }
+
 .pri-de:hover {
     color: white;
     background: rgb(9, 119, 210);
     background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%);
 }
+
 /* Quota form*/
 .quota-form {
     background-color: rgb(46, 46, 46);
@@ -455,11 +476,13 @@ body {
     bottom: 5px;
     cursor: pointer;
 }
+
 .up {
     left: 20px;
     bottom: 5px;
     cursor: pointer;
 }
+
 .wp {
     position: sticky;
     bottom: 10px;
@@ -509,7 +532,7 @@ body {
     border: none;
     border-radius: 20%;
     color: white;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.267);
     position: absolute;
     top: 60px;
     right: 60px;
@@ -522,6 +545,7 @@ body {
     padding: 100px;
     margin-bottom: 50px;
 }
+
 .story {
     background: rgb(9, 119, 210);
     background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%);
@@ -530,6 +554,7 @@ body {
     color: white;
     padding: 80px;
 }
+
 .abt-txt {
     text-align: justify;
 }
@@ -562,6 +587,12 @@ footer li {
     font-size: 1.3rem;
 }
 
+.smal {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 /*################################################
 ##         Template Page Style                  ##
 ################################################*/
@@ -581,6 +612,7 @@ footer li {
     font-size: 1.3rem;
     line-height: 1.5
 }
+
 .starter,
 .roadstar {
     background: rgb(9, 119, 210);
@@ -588,9 +620,10 @@ footer li {
     background: rgb(9, 119, 210);
     background: linear-gradient(153deg, rgba(9, 119, 210, 1) 66%, rgba(17, 179, 255, 1) 83%);
 }
+
 .station {
-     background: rgb(18,247,133);
-background: linear-gradient(163deg, rgba(126,255,119,1) 49%, rgba(201,243,198,1) 77%); 
+    background: rgb(18, 247, 133);
+    background: linear-gradient(163deg, rgba(126, 255, 119, 1) 49%, rgba(201, 243, 198, 1) 77%);
 }
 
 /* Animations for the main hero */
