@@ -225,6 +225,7 @@ body {
     top: 1rem;
 }
 
+
 .service-text {
     margin-top: 10rem;
 }
@@ -267,8 +268,6 @@ body {
 
 /* Style for what we do section */
 .wedo {
-    /*background: rgb(9, 120, 210);*/
-    /*background: linear-gradient(153deg, rgb(235, 235, 236) 66%, rgb(179, 185, 187) 83%);*/
     background-color: rgb(234, 245, 255)
 }
 
@@ -626,6 +625,34 @@ footer li {
     background: linear-gradient(163deg, rgba(126, 255, 119, 1) 49%, rgba(201, 243, 198, 1) 77%);
 }
 
+
+/*################################################
+##         Service Page Style                  ##
+################################################*/
+.service-pg {
+    background-color: rgb(234, 245, 255)
+}
+.service-img {
+    width: 20rem;
+    max-height: 20rem;
+}
+.ser-head {
+    font-weight: bold;
+    color: dodgerblue;
+    font-size: 27px;
+    padding: 20px;
+    padding-bottom: 5px
+}
+.ser-txt {
+    color: grey;
+    padding: 20px;
+    padding-top: 5px;
+}
+.ser-card {
+    border-bottom: 5px solid dodgerblue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 /* Animations for the main hero */
 @keyframes drop {
     0% {
