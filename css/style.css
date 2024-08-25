@@ -490,14 +490,17 @@ body {
     float: right;
 }
 
-.about {
+.about,
+.mission {
     margin-top: 30px;
-    background-color: whitesmoke;
+    background-color: rgb(234, 245, 255);
     color: #3D52A0;
     padding: 50px;
     font-size: 1.3rem
 }
-
+.mission {
+    background-color: whitesmoke;
+}
 .abt-txt {
     font-size: 1.2rem;
     text-align: center
@@ -540,7 +543,8 @@ body {
 /*About*/
 .about,
 .story,
-.choice {
+.choice,
+.mission {
     padding: 100px;
     margin-bottom: 50px;
 }
